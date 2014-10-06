@@ -43,7 +43,7 @@
 								<li class="current"><a href="index.html">Home</a></li>
 								<li>
 									<a href="#introduction">Intro</a>
-									<ul>
+<!-- 									<ul>
 										<li><a href="#">Lorem ipsum</a></li>
 										<li><a href="#">Magna veroeros</a></li>
 										<li><a href="#">Etiam nisl</a></li>
@@ -58,7 +58,7 @@
 											</ul>
 										</li>
 										<li><a href="#">Nisl tempus</a></li>
-									</ul>
+									</ul> -->
 								</li>
 								<li><a href="#skills">Skills & Experiences</a></li>
 								<li><a href="#projects">Projects</a></li>
@@ -74,12 +74,20 @@
 				<div class="title" id="introduction">The Introduction</div>
 				<section id="intro" class="container">
 					<p class="style1">Hi, I am glad to see you landing here. My name is Zihao Alex Wang, a third year student at the University of Waterloo studying Computer Science and, Financial Analysis and Risk Management double major.</p>
+					<img src="images/profile.jpg" />
 					<p class="style2">
 
 					</p>
-					<p class="style3">It's <strong>responsive</strong>, built on <strong>HTML5</strong> and <strong>CSS3</strong>, and released for
-					free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>, so use it for any of
-					your personal or commercial projects &ndash; just be sure to credit us!</p>
+					<h1 style="font-size: 250%; margin-bottom: 10px;">Skills and Achievements</h1>
+					<ul style="list-style-type:disc;">
+						<li>Cumulative average: 94%. Dean's Honour's List for all terms.</li>
+						<li>Hands-on programming experiences in Java, C++, Objective-C, Python, C, Web languages (HTML, CSS3, Javascript), Shell Scripting, Perl and Scheme; great understanding of OOP and OOP languages</li>
+<li>Excellent understanding of algorithms with years of great performances in programming contests and personal AI projects and research</li>
+<li>Experiences with distributed systems, Hadoop and map-reduce, Cassandra distributed database, and the interplay of Hadoop and Cassandra. 
+<li>Experiences with algorithmic trading and backtesting.</li>
+<li>Mobile programming experience on IOS devices (Objective-C); good grasp of MVC principle</li>
+					</ul>
+
 					<ul class="actions">
 						<li><a href="#" class="button style3 big">Proceed</a></li>
 					</ul>
@@ -97,9 +105,9 @@
 						</a> -->
 					
 					<!-- Features -->
-						<section id="features">
+						<section id="features" class="work_experiences">
 							<header class="style1">
-								<h2>Relevant Work Experiences</h2>
+								<h2>Relevant Experiences</h2>
 								<p>In the field of computer science and finance</p>
 							</header>
 							<div class="feature-list">
@@ -109,14 +117,17 @@
 											<h3 class="icon apple">Software Engineering</h3>
 											<h4>Apple Inc.</br>
 											Sept. 2014 - present</h4>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											<p>I am working in the iCloud team on accounts engineering.</p>
 										</section>
 									</div>
 									<div class="6u">
 										<section>
 											<h3 class="icon ura">Undergraduate Research Assistant</h3>
 											<h4>University of Waterloo</br>May 2014 - Setp. 2014</h4>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											<p><ul><li>Analyzed open source framework OpenEphyra and wrote a report on how it could be transformed into supporting Chinese Q&A</li>
+<li>Wrote a parser that parses HTML of all online encyclopedia pages into structured information</li>
+<li>Constructed a demo program that supports simple Chinese Q&A</li>
+</ul></p>
 										</section>
 									</div>
 								</div>
@@ -125,17 +136,34 @@
 										<section>
 											<h3 class="icon rbc">Technical Systems Analyst</h3>
 											<h4>Royal Bank of Canada</br>Sept. 2013 - Setp. 2014</h4>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											<p><ul><li>Wrote, tested and deployed shell scripts and Perl scripts that added features to current Repo trading system used in RBC Capital Markets</li>
+<li>Understood business requirements and correctly wrote corresponding SQL statements to generate formatted reports for traders</li>
+<li>Documented all scripts in the crontab and several Java programs, which came to more than 10000 words</li>
+<li>Took initiative to find a Java Object-Oriented solution to generating XML transaction files based on schema files to replace the old way of using instable and hardcoded scripts</li></ul>
+</p>
 										</section>
 									</div>
 									<div class="6u">
 										<section>
 											<h3 class="icon ura">Vice President, IT</h3>
 											<h4>FARMSA</br>May 2014 - Setp. 2014</h4>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.</p>
+											<p><ul><li>Responsible for maintaining and improving the club website and other IT infrastructures</li>
+												<li>Proposed and developed an iOS application that made cardless membership possible and helped manage members, and sign in members at events</li>
+<li>Planning club events, including professional tutorials and networking sessions.</li></ul>
+</p>
 										</section>
 									</div>
 								</div>
+								<div class="row">
+									<div class="6u">
+										<section>
+											<h3 class="icon ura">Teaching Assistant for Calculus II</h3>
+											<h4>University of Waterloo</br>Jan. 2014 - Apr. 2014</h4>
+											<p><ul><li>Helped students with assignments in a effective way that does not give out the solution.</li>
+<li>Answered students' questions about university life and career choices.</li>
+</p>
+										</section>
+									</div>
 						</section>
 				
 				</div>
@@ -144,13 +172,15 @@
 		<!-- Highlights -->
 			<div class="wrapper style3">
 				<div class="title" id="projects">Projects</div>
-				<div id="highlights" class="container">
+				<div id="highlights" class="container projects">
 					<div class="row oneandhalf">
 						<div class="4u">
 							<section class="highlight">
 								<a href="#" class="image featured"><img src="images/gobang.png" alt="" /></a>
 								<h3><a href="#">Gomoku AI</a></h3>
-								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+								<p>Core algorithms used: Iterative deepening depth-first search in optimized order, heuristic function, alpha-beta and some other pruning and state compression (to efficiently stores and updates position).</p>
+<p>Game interface and AI algorithm written in Java.
+</p>
 								<ul class="actions">
 									<li><a href="#" class="button style1">Learn More</a></li>
 								</ul>
@@ -160,7 +190,10 @@
 							<section class="highlight">
 								<a href="#" class="image featured"><img src="images/snake.gif" alt="" /></a>
 								<h3><a href="#">Snake AI</a></h3>
-								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+								<p>Perfect ending, where the snake’s body fills up the whole grid, is achieved with high probability.</p>
+<p>Core algorithms used: BFS to find the shortest path and the longest path; Floodfill(DFS) to find size of connected components</p>
+<p>Game interface and AI algorithm written in Python.
+</p>
 								<ul class="actions">
 									<li><a href="#" class="button style1">Learn More</a></li>
 								</ul>
@@ -170,7 +203,9 @@
 							<section class="highlight">
 								<a href="#" class="image featured"><img src="images/watcher_both.png" alt="" /></a>
 								<h3><a href="#">Courses Watcher iOS</a></h3>
-								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+								<p>This app pushes notifications to the user when a course on the user’s watch list is open, saving students time from refreshing the course enrollment website all the time.</p>
+<p>This app also provides convenient user interface to look up section information and professor information and ratings(from ratemyprof.com).
+</p>
 								<ul class="actions">
 									<li><a href="#" class="button style1">Learn More</a></li>
 								</ul>
@@ -180,7 +215,9 @@
 							<section class="highlight">
 								<a href="#" class="image featured"><img src="images/shake_logo.png" alt="" /></a>
 								<h3><a href="#">Shake2Eat iOS</a></h3>
-								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+								<p>This app helps people decide where to eat after people shake their phone based on the filters they turned on, with rating and location information provided.</p>
+<p>Pleasant and intuitive UI
+</p>
 								<ul class="actions">
 									<li><a href="#" class="button style1">Learn More</a></li>
 								</ul>

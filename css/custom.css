@@ -1,3 +1,14 @@
 div .highlight {
 	margin-bottom: 50px !important;
 }
+
+.work_experiences ul{
+	list-style-type:disc; 
+	margin: 0 0 0 2em;
+}
+
+.projects p {
+	text-indent: 2em;
+	text-align: left;
+	margin-bottom: 0;
+}
