@@ -590,15 +590,18 @@
 		.wrapper.style1
 		{
 			background: #8E8F9C url('images/overlay.png');
+			
+			/*background: #f3f3f3 url('images/overlay.png');*/
 			color: #eee;
 			color: rgba(255,255,255,0.75);
-			
+
 
 		}
 		
 			.wrapper.style1 .title
 			{
 				background: #8E8F9C url('images/overlay.png');
+				/*background: #f3f3f3 url('images/overlay.png');*/
 				color: #fff;
 			}
 		
